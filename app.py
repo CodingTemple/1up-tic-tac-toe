@@ -76,7 +76,7 @@ class TicTacToe:
             self.reset_game()  # Reset the game
 
     def reset_game(self):
-        """Resets the game by clearing the board and setting the initial player turn."""
+        """Resets the game by clearing the board"""
         self.board = [""] * 9  # Reset the board
         for button in self.buttons:  # Loop through each button
             button.config(text='')  # Clear the text on the button
